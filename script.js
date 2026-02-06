@@ -41,18 +41,24 @@ button.addEventListener("click", ()=>{
 
 
 let object = document.getElementById('poosas');
+let object2 = document.getElementById('poosas2');
 
 
 
 pets.onclick=function(){
-    var x = Math.floor(Math.random()*700);
-    var y = Math.floor(Math.random()*700);
+    var x = Math.floor(Math.random()*750);
+    var y = Math.floor(Math.random()*1800);
     object.style.top = x + 'px';
     object.style.left = y + 'px';
     object.animate({opacity: '5'}, 2000);
     setTimeout(object.animate({opacity: '0'}, 2000), 1000);
-   
-    
-};
 
+    var x = Math.floor(Math.random()*750);
+    var y = Math.floor(Math.random()*1800);
+    object2.style.top = x + 'px';
+    object2.style.left = y + 'px';
+    object2.animate({opacity: '5'}, 2000);
+    setTimeout(object2.animate({opacity: '0'}, 2000), 1000);
+       
+};
 

@@ -118,6 +118,11 @@ body {
   transition: all 0.2s;
 }
 
-.fade {
-	
+.poosas2 { 
+	pointer-events:none;
+	opacity: 0;
+  position: absolute ; 
+  top: 100px; 
+  left: 100px; 
+  transition: all 0.2s;
 }
