@@ -40,3 +40,19 @@ button.addEventListener("click", ()=>{
 });
 
 
+let object = document.getElementById('poosas');
+
+
+
+pets.onclick=function(){
+    var x = Math.floor(Math.random()*300);
+    var y = Math.floor(Math.random()*300);
+    object.style.top = x + 'px';
+    object.style.left = y + 'px';
+    object.animate({opacity: '5'}, 2000);
+    setTimeout(object.animate({opacity: '0'}, 2000), 1000);
+   
+    
+};
+
+
