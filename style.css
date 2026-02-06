@@ -19,6 +19,24 @@ body {
 }
 
 .tekst2 {
+	margin-top: 60px;
+	font-size: 30px;
+	color: skyblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000,
+                -3px 0px 0 #000,
+                3px 0px 0 #000,
+                0px -3px 0 #000,
+                0px 3px 0 #000;
+}
+
+.tekst3 {
 	font-size: 30px;
 	color: skyblue;
 	display: flex;
@@ -39,4 +57,53 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	
+}
+
+.pets1:active {
+	transform: scale(0.9);
+}
+
+.suvaline {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.counter {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: skyblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000,
+                -3px 0px 0 #000,
+                3px 0px 0 #000,
+                0px -3px 0 #000,
+                0px 3px 0 #000;
+}
+
+
+.instruct {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: skyblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-shadow:
+                -2px -2px 0 #000,
+                2px -2px 0 #000,
+                -2px 2px 0 #000,
+                2px 2px 0 #000,
+                -3px 0px 0 #000,
+                3px 0px 0 #000,
+                0px -3px 0 #000,
+                0px 3px 0 #000;
 }
