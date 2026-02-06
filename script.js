@@ -26,9 +26,6 @@ pets.addEventListener("click", ()=>{
 	score++;
 	console.log(score);
 	count.textContent ="Count: " + score;
-	if (score === 50){
-		window.open("https://youtu.be/umYkWE0-Zpg?si=34hryuMFZY_eimOW");
-	};
 	console.log(number);
 });
 
