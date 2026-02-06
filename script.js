@@ -45,8 +45,8 @@ let object = document.getElementById('poosas');
 
 
 pets.onclick=function(){
-    var x = Math.floor(Math.random()*300);
-    var y = Math.floor(Math.random()*300);
+    var x = Math.floor(Math.random()*700);
+    var y = Math.floor(Math.random()*700);
     object.style.top = x + 'px';
     object.style.left = y + 'px';
     object.animate({opacity: '5'}, 2000);
